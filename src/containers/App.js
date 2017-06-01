@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Button } from 'antd';
 
 class App extends Component {
   componentWillMount() {
@@ -12,10 +12,7 @@ class App extends Component {
       <div className="App">
         <div className="bg-content">
         </div>
-        <p className="App-intro">
-          <img src={logo} className="App-logo" alt="logo" />
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <Button type="danger">Button</Button>
       </div>
     );
   }
