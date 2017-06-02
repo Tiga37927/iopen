@@ -1,0 +1,36 @@
+.header {
+  position: relative;
+  height: 50px;
+  padding: 0 16px;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-shadow: 0 1px 2px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.15);
+}
+.header-content {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-nav {
+  display: inline-block;
+}
+.site-nav .sn-item {
+  float: left;
+  padding: 15px 14px;
+  font-size: 16px;
+}
+.site-nav .sn-item a {
+  color: #888;
+  transition: 0.2s ease-in
+}
+.site-nav .sn-item a:hover {
+  color: #fff;
+}

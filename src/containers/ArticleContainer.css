@@ -1,0 +1,32 @@
+.acticle-box {
+    width: 1000px;
+    margin: 15px auto;
+}
+.pannel-header {
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
+.pannel-header .ph-item {
+    float: left;
+    color: #fff;
+    padding: 3px 4px;
+    border-radius: 3px;
+    margin: 0 4px;
+}
+.pannel-header .ph-item a:hover {
+    color: #000;
+}
+.pannel-header .active {
+    background-color: #108ee9;
+}
+.pannel-header .active a,.pannel-header .active a:hover {
+    color: #fff;
+}
+.pannel-inner {
+    background-color: #fff;
+    border-radius: 0 0 3px 3px;
+}
+.pagination {
+    padding: 10px;
+}

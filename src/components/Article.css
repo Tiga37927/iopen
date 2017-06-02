@@ -1,0 +1,66 @@
+.article {
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #eee;
+}
+.article:last-child {
+    border-bottom: none!important;
+}
+.article:hover {
+    background-color: #f6f6f6;
+}
+.article .author-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.article .reply-count {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+.article .reply-count .reply {
+    color: #9e78c0;
+    font-style: normal;
+    font-size: 14px;
+}
+.article .reply-count .visit {
+    font-style: normal;
+    font-size: 12px;
+}
+.article .target {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 2px 4px;
+    margin-right: 4px;
+}
+.target-top {
+    background-color: #108ee9;
+    color: #fff;
+}
+.article .target-good {
+    background-color: #eee;
+    color: #999;
+}
+.article .title {
+    max-width: 700px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.article .uptime {
+    float: right;
+}
+.article .last-active-time {
+    text-align: right;
+    min-width: 50px;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.small-photo {
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    margin-right: .5em;
+    border-radius: 3px;
+}
