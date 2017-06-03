@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 import './Article.css';
 
-export default class Article extends React.Component {    
+export default class Article extends React.Component {
     render() {
         const article = this.props.article;
         return (
@@ -15,9 +15,9 @@ export default class Article extends React.Component {
                 </span>
                 {
                     article.top ? <span className="target target-top">顶置</span> :
-                        article.good ? <span className="target target-good">精华</span> : 
+                        article.good ? <span className="target target-good">精华</span> :
                             <span className="target target-good">问答</span>
-                }                
+                }
                 <Link className="title" to="/">{article.title}</Link>
                 <div className="uptime">
                     <img className="small-photo" src={article.author.avatar_url} alt=""/>

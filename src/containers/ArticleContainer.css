@@ -27,6 +27,10 @@
     background-color: #fff;
     border-radius: 0 0 3px 3px;
 }
+.loading-box {
+  padding: 20px 0;
+  text-align: center;
+}
 .pagination {
     padding: 10px;
 }
