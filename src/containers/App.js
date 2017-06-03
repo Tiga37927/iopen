@@ -39,8 +39,8 @@ class IopenApp extends Component {
       <Router>
         <div className="App">
             <Header></Header>
-              <Route path="/" component={ArticleContainer}/>
-              <Route path="/topics" component={Topics}/>
+              <Route exact path="/" component={ArticleContainer}/>
+              <Route exact path="/topics" component={Topics}/>
             <Footer></Footer>
         </div>
       </Router>
